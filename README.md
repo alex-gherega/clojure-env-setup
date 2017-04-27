@@ -115,7 +115,27 @@ __manual setup (the hadrcore way):__
 
 &emsp; &emsp; &emsp; &emsp; + (add `(show-paren-mode 1)` to your init.el file))
 		
-    
+## Test it out!
+
+a. ```git clone https://github.com/alex-gherega/prisoners-dilema``` into some $DIR
+
+b. cd $DIR/
+
+c. start emacs: ```emacs &```
+
+d. once emacs has started hit C-F11 (hold Ctrl and press F11)
+
+![](https://github.com/alex-gherega/clojure-env-setup/elstart.png)
+
+e. after a minute or so you should see this:
+
+![](https://github.com/alex-gherega/clojure-env-setup/elcljrepl.png)
+
+f. now open the project file src/torunament.clj
+
+g. you should see the code highlighted; hitting C-c C-k (hold Ctrl and press c then k) should compile your code; tryout matching and highlighting matchign parans;
+
+h. your done! cheers :)
   
 
 This project is publicly licesened under a creative commons license:
