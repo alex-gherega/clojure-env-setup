@@ -1,4 +1,4 @@
-# Clojure env setup
+# Clo_j_ure env setup
 
 ## What you get
 
@@ -64,9 +64,11 @@ __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://o
 
 __plug'n'play setup (the easy way):__
 
-&emsp; (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone https://github.com/alex-gherega/clojure-env-setup` into some $DIR
+&emsp; a. (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone https://github.com/alex-gherega/clojure-env-setup` into some $DIR
 
-&emsp; then copy $DIR/clojure-env-setup/.emacs.d/ directory into your $HOME/ directory (you'll need to remove/ovewrite the old $HOME/emacs.d/ directory)
+&emsp; b. then copy $DIR/clojure-env-setup/.emacs.d/ directory into your $HOME/ directory
+
+&emsp; (you'll need to remove/ovewrite the old $HOME/emacs.d/ directory)
 
 
 
@@ -81,23 +83,31 @@ __manual setup (the hadrcore way):__
 
 &emsp; d. Clojure plugins [required]
   
-&emsp;&emsp; (Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))>
+&emsp; &emsp; (Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))>
 
 &emsp; &emsp; (Clojure REPL plug-in (you're done! comes inside CIDER plug-in))
+
 &emsp; &emsp; (Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))
   
   
 &emsp; e. Clojure plugins [not required but helpful]
+
 &emsp;&emsp; (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))<p>
     
-&emsp; &emsp; &emsp; (Parenthesis automation 
+&emsp; &emsp; &emsp; (Parenthesis automation
+
 &emsp; &emsp; &emsp; &emsp; (install Paredit [follow this recipe]())
+
 &emsp; &emsp; &emsp; &emsp; (add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
 		
 &emsp; &emsp; &emsp; (Auto-completion plug-in [folow this recipe](http://cider.readthedocs.io/en/latest/code_completion/))
+
 &emsp; &emsp; &emsp; (Close parenthesis delimieters & match:
+
 &emsp; &emsp; &emsp; &emsp; ([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
+
 &emsp; &emsp; &emsp; &emsp; (also add `(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)` and `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`to your init.el file)
+
 &emsp; &emsp; &emsp; &emsp; (add `(show-paren-mode 1)` to your init.el file)
 		
     
