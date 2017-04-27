@@ -97,7 +97,7 @@ __manual setup (the hadrcore way):__
     
 &emsp; &emsp; &emsp; (Parenthesis automation
 
-⋅⋅⋅* (install Paredit [follow this recipe]())
+⋅⋅* (install Paredit [follow this recipe]())
 
 &emsp; &emsp; &emsp; &emsp; + (add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file))
 		
