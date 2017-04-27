@@ -11,6 +11,8 @@ Configs and dependencies for Emacs to integrate Cider plugin and related Clojure
 * Autocompletion plugin
 * Rainbow parenthesis delimiters
 * Parenthesis matching
+* Zenburn theme
+* M-TAB or C-M-i to manual trigger autocomplete
 
 A how-to guide to get you started with a basic Clojure development environment using:
 * [Emacs](https://www.gnu.org/software/emacs/)
@@ -62,7 +64,9 @@ __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://o
 
 __plug'n'play setup (the easy way):__
 
-&emsp; (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)
+&emsp; (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone https://github.com/alex-gherega/clojure-env-setup` into some $DIR
+
+&emsp; then copy $DIR/clojure-env-setup/.emacs.d/ directory into your $HOME/ directory (you'll need to remove/ovewrite the old $HOME/emacs.d/ directory)
 
 
 
