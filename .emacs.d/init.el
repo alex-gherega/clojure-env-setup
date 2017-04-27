@@ -54,7 +54,6 @@
 
 ;; rainbow-delimiters
 (add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)
-(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'cider-mode-hook #'rainbow-delimiters-mode)
 
 ;; paren mode
