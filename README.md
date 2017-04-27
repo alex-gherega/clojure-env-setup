@@ -42,13 +42,16 @@ c. Emacs 24.4.1 [tested] or higher installed
 ### Leinigen
 
 The project automation tool
-<dl>
-	<dd>(have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))</dd>
-	<dd>(place it on your $PATH where your shell cand find it)</dd>
-	<dd>(set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))</dd>
-	<dd>(run it `lein` and it will download the self-install package)</dd>
-	<dd>(after that run `lein upgrade` to get the latest stuff in)</dd>
-</dl>
+
+(have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))
+
+(place it on your $PATH where your shell cand find it)
+
+(set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))
+
+(run it `lein` and it will download the self-install package)
+
+&emsp; (after that run `lein upgrade` to get the latest stuff in)
 
 ### Emacs
 
@@ -56,7 +59,7 @@ __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://o
 
 __plug'n'play setup (the easy way):__
 
-  + (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)
+(clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)
 
 __manual setup (the hadrcore way):__
 <dl>
