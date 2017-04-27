@@ -1,4 +1,4 @@
-# Clo_j_ure env setup
+# Clo _j_ ure env setup
 
 ## What you get
 
