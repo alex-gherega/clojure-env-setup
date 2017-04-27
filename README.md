@@ -105,14 +105,15 @@ __manual setup (the hadrcore way):__
 
 &emsp; &emsp; &emsp; (Close parenthesis delimieters & match:
 
-&emsp; &emsp; &emsp; &emsp; * ([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
+&emsp; &emsp; &emsp; &emsp;  * ([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
 
-&emsp; &emsp; &emsp; &emsp; * (add these 2 lines to your init.el file)
+&emsp; &emsp; &emsp; &emsp;  * (add these 2 lines to your init.el file)
 
 &emsp; &emsp; &emsp; &emsp; `(add-hook 'cider-repl-mode-ook #'rainbow-delimiters-mode)`
+
 &emsp; &emsp; &emsp; &emsp; `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`
 
-&emsp; &emsp; &emsp; &emsp; * (add `(show-paren-mode 1)` to your init.el file)
+&emsp; &emsp; &emsp; &emsp;  * (add `(show-paren-mode 1)` to your init.el file)
 		
     
   
