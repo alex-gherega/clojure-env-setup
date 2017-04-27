@@ -42,34 +42,36 @@ c. Emacs 24.4.1 [tested] or higher installed
 ### Leinigen
 
 The project automation tool
-
-  (have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))
-  (place it on your $PATH where your shell cand find it)
-  (set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))
-  (run it `lein` and it will download the self-install package)
-  (after that run `lein upgrade` to get the latest stuff in)
-	
+<dl>
+	<dd>(have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))</dd>
+	<dd>(place it on your $PATH where your shell cand find it)</dd>
+	<dd>(set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))</dd>
+	<dd>(run it `lein` and it will download the self-install package)</dd>
+	<dd>(after that run `lein upgrade` to get the latest stuff in)</dd>
+</dl>	
 ### Emacs
 
 __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://ocean.stanford.edu/research/quick_emacs.html)
 
-__plug'n'play setup (the easy way)__
-  (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone link` into your $HOME/.emacs)
+__plug'n'play setup (the easy way):__
 
-__Manual setup (the hadrcore way)__
+<dl><dd>(clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)</dd></dl>
 
-  a. After installing emacs start it and run: M-x package-refresh-contents
+__manual setup (the hadrcore way):__
+<dl>
+  <dd>a. After installing emacs start it and run: M-x package-refresh-contents</dd>
 
-  b. Add an init.el file to your $HOME/.emacs/ directory
+  <dd>b. Add an init.el file to your $HOME/.emacs/ directory</dd>
 
-  c. Emacs ElDoc mode:
-    (install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))
+  <dd>c. Emacs ElDoc mode:</dd>
+  <p>&emsp; (install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))</p>
 
-  d. Clojure plugins [required]
-    (Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))
-    (Clojure REPL plug-in (you're done! comes inside CIDER plug-in))
-    (Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))
-
+  <dd>d. Clojure plugins [required]</dd>
+  <dl>
+    <dd>(Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))>/dd>
+    <dd>(Clojure REPL plug-in (you're done! comes inside CIDER plug-in))</dd>
+    <dd>(Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))</dd>
+  </dl>
   e. Clojure plugins [not required but helpful]
     (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))
 		(Parenthesis automation 
@@ -80,7 +82,7 @@ __Manual setup (the hadrcore way)__
 			([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
 			(also add `(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)` and `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`to your init.el file)
 			(add `(show-paren-mode 1)` to your init.el file)
-
+</dl>
 This project is publicly licesened under a creative commons license:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
