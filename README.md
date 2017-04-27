@@ -18,16 +18,20 @@ A how-to guide to get you started with a basic Clojure development environment u
 
 ## Notations & definitions
 
-* parentheses are used below to denote important steps (and to make you more comfortable with Lisp like sintax)
-* $NAME denotes a system variable called NAME; I'll refer to your basic home directory (e.g. /home/alex/) by $HOME sys variable.
+Parentheses are used below to denote important steps (and to make you more comfortable with Lisp like sintax)
+
+$NAME denotes a system variable called NAME; I'll refer to your basic home directory (e.g. /home/alex/) by $HOME sys variable.
 
 ## System requirements
 
 __You'll need:__
-a. UNIX/Linux environment 
-	(virtual-machine with Ubuntu 14.04 or newer)
-	(tested with Ubuntu 14.04 & Ubuntu 15.04)
-	(have your Wi-Fi working on the VM)
+
+a. UNIX/Linux environment
+<dl>
+	<dd>(virtual-machine with Ubuntu 14.04 or newer)</dd>
+	<dd>(tested with Ubuntu 14.04 & Ubuntu 15.04)</dd>
+	<dd>(have your Wi-Fi working on the VM)</dd>
+</dl>
 
 b. Java 1.8 installed and visible in your $PATH
 
@@ -38,34 +42,36 @@ c. Emacs 24.4.1 [tested] or higher installed
 ### Leinigen
 
 The project automation tool
-	(have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))
-	(place it on your $PATH where your shell cand find it)
-	(set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))
-	(run it `lein` and it will download the self-install package)
-	(after that run `lein upgrade` to get the latest stuff in)
+
+  (have the following script downloaded: [lein](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein))
+  (place it on your $PATH where your shell cand find it)
+  (set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))
+  (run it `lein` and it will download the self-install package)
+  (after that run `lein upgrade` to get the latest stuff in)
 	
 ### Emacs
 
-__Note:__ For a quick-extremely-basic-hands-on Emacs editting [go here](http://ocean.stanford.edu/research/quick_emacs.html)
+__note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://ocean.stanford.edu/research/quick_emacs.html)
 
-__Plug'n'play setup (the easy way)__
-clone [this](link) git repo `git clone link` into your $HOME/.emacs)
+__plug'n'play setup (the easy way)__
+  (clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone link` into your $HOME/.emacs)
 
 __Manual setup (the hadrcore way)__
-a. After installing emacs start it and run: M-x package-refresh-contents
 
-b. Add an init.el file to your $HOME/.emacs/ directory
+  a. After installing emacs start it and run: M-x package-refresh-contents
 
-c. Emacs ElDoc mode:
-		(install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))
+  b. Add an init.el file to your $HOME/.emacs/ directory
 
-d.	Clojure plugins [required]
-		(Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))
-		(Clojure REPL plug-in (you're done! comes inside CIDER plug-in))
-		(Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))
+  c. Emacs ElDoc mode:
+    (install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))
 
-e.	Clojure plugins [not required but helpful]
-		(Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))
+  d. Clojure plugins [required]
+    (Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))
+    (Clojure REPL plug-in (you're done! comes inside CIDER plug-in))
+    (Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))
+
+  e. Clojure plugins [not required but helpful]
+    (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))
 		(Parenthesis automation 
 			(install Paredit [follow this recipe]())
 			(add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
