@@ -1,4 +1,4 @@
-# Clo _j_ ure env setup
+# Clo<i>j</i>ure env setup
 
 ## What you get
 
