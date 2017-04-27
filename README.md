@@ -97,7 +97,7 @@ __manual setup (the hadrcore way):__
     
 &emsp; &emsp; &emsp; (Parenthesis automation
 
-&emsp; &emsp; &emsp; &emsp; +(install Paredit [follow this recipe]())
+&emsp; &emsp; &emsp; &emsp; + (install Paredit [follow this recipe]())
 
 &emsp; &emsp; &emsp; &emsp; + (add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file))
 		
@@ -113,7 +113,7 @@ __manual setup (the hadrcore way):__
 
 &emsp; &emsp; &emsp; &emsp; `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`
 
-&emsp; &emsp; &emsp; &emsp; &#9702; (add `(show-paren-mode 1)` to your init.el file))
+&emsp; &emsp; &emsp; &emsp; + (add `(show-paren-mode 1)` to your init.el file))
 		
     
   
