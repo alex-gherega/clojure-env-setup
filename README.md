@@ -56,7 +56,7 @@ __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://o
 
 __plug'n'play setup (the easy way):__
 
-<dl><dd>(clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)</dd></dl>
+<dl><dd></dd></dl>(clone [this](https://github.com/alex-gherega/clojure-env-setup) git repo `git clone [this](https://github.com/alex-gherega/clojure-env-setup)` into your $HOME/.emacs)
 
 __manual setup (the hadrcore way):__
 <dl>
