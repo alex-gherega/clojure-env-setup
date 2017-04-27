@@ -84,7 +84,7 @@ __manual setup (the hadrcore way):__
 
 &emsp; d. Clojure plugins [required]
   
-&emsp; &emsp; (Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))>
+&emsp; &emsp; (Emacs CIDER plug-in [follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))
 
 &emsp; &emsp; (Clojure REPL plug-in (you're done! comes inside CIDER plug-in))
 
@@ -93,26 +93,26 @@ __manual setup (the hadrcore way):__
   
 &emsp; e. Clojure plugins [not required but helpful]
 
-&emsp;&emsp; (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))<p>
+&emsp; &emsp; &emsp; (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))<p>
     
 &emsp; &emsp; &emsp; (Parenthesis automation
 
-&emsp; &emsp; &emsp; &emsp; (install Paredit [follow this recipe]())
+&emsp; &emsp; &emsp; &emsp; * (install Paredit [follow this recipe]())
 
-&emsp; &emsp; &emsp; &emsp; (add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
+&emsp; &emsp; &emsp; &emsp; * (add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
 		
 &emsp; &emsp; &emsp; (Auto-completion plug-in [folow this recipe](http://cider.readthedocs.io/en/latest/code_completion/))
 
 &emsp; &emsp; &emsp; (Close parenthesis delimieters & match:
 
-&emsp; &emsp; &emsp; &emsp; ([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
+&emsp; &emsp; &emsp; &emsp; * ([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
 
-&emsp; &emsp; &emsp; &emsp; (add these 2 lines to your init.el file)
+&emsp; &emsp; &emsp; &emsp; * (add these 2 lines to your init.el file)
 
 &emsp; &emsp; &emsp; &emsp; `(add-hook 'cider-repl-mode-ook #'rainbow-delimiters-mode)`
 &emsp; &emsp; &emsp; &emsp; `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`
 
-&emsp; &emsp; &emsp; &emsp; (add `(show-paren-mode 1)` to your init.el file)
+&emsp; &emsp; &emsp; &emsp; * (add `(show-paren-mode 1)` to your init.el file)
 		
     
   
