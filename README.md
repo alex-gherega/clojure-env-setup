@@ -48,7 +48,8 @@ The project automation tool
 	<dd>(set it to be executable (chmod a+x /path/to/your/lein-download-dir/lein))</dd>
 	<dd>(run it `lein` and it will download the self-install package)</dd>
 	<dd>(after that run `lein upgrade` to get the latest stuff in)</dd>
-</dl>	
+</dl>
+
 ### Emacs
 
 __note:__ for a quick-extremely-basic-hands-on Emacs editting [go here](http://ocean.stanford.edu/research/quick_emacs.html)
@@ -64,24 +65,30 @@ __manual setup (the hadrcore way):__
   <dd>b. Add an init.el file to your $HOME/.emacs/ directory</dd>
 
   <dd>c. Emacs ElDoc mode:</dd>
-  <p>&emsp; (install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))</p>
+  <p>&emsp;&emsp; (install eldoc mode [follow this recipe] (https://www.emacswiki.org/emacs/ElDoc#toc2))</p>
 
-  <dd>d. Clojure plugins [required]</dd>
+  <dd>d. Clojure plugins [required]
   <dl>
     <dd>(Emacs CIDER plug-in[follow this recipe](https://github.com/clojure-emacs/cider/blob/master/README.md))>/dd>
     <dd>(Clojure REPL plug-in (you're done! comes inside CIDER plug-in))</dd>
     <dd>(Emacs clojure-mode [follow this recipe](https://github.com/clojure-emacs/clojure-mode/blob/master/README.md))</dd>
-  </dl>
-  e. Clojure plugins [not required but helpful]
-    (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))
-		(Parenthesis automation 
-			(install Paredit [follow this recipe]())
-			(add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
-		(Auto-completion plug-in [folow this recipe](http://cider.readthedocs.io/en/latest/code_completion/))
-		(Close parenthesis delimieters & match:
-			([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
-			(also add `(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)` and `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`to your init.el file)
-			(add `(show-paren-mode 1)` to your init.el file)
+  </dl></dd>
+  
+  <dd>e. Clojure plugins [not required but helpful]
+    <p>&emsp;&nbsp;&nbsp; (Syntax highlight plug-in (you're done! Comes inside CIDER plug-in + Clojure mode))<p>
+    <dl>
+		<dd>(Parenthesis automation 
+			<br>&emsp;&emsp;&emsp;(install Paredit [follow this recipe]())
+			<br>&emsp;&emsp;&emsp;(add the following `(add-hook 'cider-repl-mode-hook #'paredit-mode)` to your init.el file)
+		</dd>
+		<dd>(Auto-completion plug-in [folow this recipe](http://cider.readthedocs.io/en/latest/code_completion/))</dd>
+		<dd>(Close parenthesis delimieters & match:
+			<br>&emsp;&emsp;&emsp;([follow this recipe](https://github.com/Fanael/rainbow-delimiters/blob/master/README.md))
+			<br>&emsp;&emsp;&emsp;(also add `(add-hook 'cider-repl-mode-hook #'rainbow-delimiters-mode)` and `(add-hook 'cider-mode-hook #'rainbow-delimiters-mode)`to your init.el file)
+			<br>&emsp;&emsp;&emsp;(add `(show-paren-mode 1)` to your init.el file)
+		</dd>
+    </dl>
+  </dd>
 </dl>
 This project is publicly licesened under a creative commons license:
 
