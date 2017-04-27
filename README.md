@@ -125,11 +125,11 @@ c. start emacs: ```emacs &```
 
 d. once emacs has started hit C-F11 (hold Ctrl and press F11)
 
-![alt text](https://github.com/alex-gherega/clojure-env-setup/elstart.png "")
+![](https://github.com/alex-gherega/clojure-env-setup/blob/master/elstart.png "")
 
 e. after a minute or so you should see this:
 
-![alt text](https://github.com/alex-gherega/clojure-env-setup/elcljrepl.png "")
+![](https://github.com/alex-gherega/clojure-env-setup/blob/master/elcljrepl.png)
 
 f. now open the project file src/torunament.clj
 
