@@ -131,11 +131,11 @@ e. after a minute or so you should see this:
 
 ![](https://github.com/alex-gherega/clojure-env-setup/blob/master/elcljrepl.png)
 
-f. now open the project file src/torunament.clj
+f. now open the project file src/tournament.clj
 
-g. you should see the code highlighted; hitting C-c C-k (hold Ctrl and press c then k) should compile your code; tryout matching and highlighting matchign parans;
+g. you should see the code highlighted; hitting C-c C-k (hold Ctrl and press c then k) should compile your code; tryout matching and highlighting matching parans;
 
-h. your done! cheers :)
+h. you're done! cheers :)
   
 
 This project is publicly licesened under a creative commons license:
