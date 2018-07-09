@@ -37,7 +37,7 @@ a. UNIX/Linux environment
 
 b. Java 1.8 installed and visible in your $PATH
 
-c. Emacs 24.4.1 [tested] or higher installed
+c. Emacs 25.2.2 [tested] or higher installed
 
 ## Dev env setup: a guide
 

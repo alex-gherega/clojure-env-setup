@@ -1,9 +1,9 @@
 ;;; spinner-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "spinner" "spinner.el" (23142 5236 844015 147000))
+;;;### (autoloads nil "spinner" "spinner.el" (23363 4516 753162 167000))
 ;;; Generated autoloads from spinner.el
 
 (autoload 'spinner-create "spinner" "\
