@@ -30,8 +30,8 @@ __You'll need:__
 
 a. UNIX/Linux environment
 <dl>
-	<dd>(virtual-machine with Ubuntu 14.04 or newer)</dd>
-	<dd>(tested with Ubuntu 14.04 & Ubuntu 15.04)</dd>
+	<dd>(virtual-machine with Ubuntu 18.04 or newer)</dd>
+	<dd>(tested with Ubuntu 18.04)</dd>
 	<dd>(have your Wi-Fi working on the VM)</dd>
 </dl>
 
